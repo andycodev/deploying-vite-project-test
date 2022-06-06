@@ -26,7 +26,9 @@ plugins: [vue()]
 ```
 
 5. Compilamos nuestro proyecto vite para producció con el comando:
+```console
 - npm run build
+```
 
 6. Agregamos nuestra carpeta build generada con el comando anterior a nuestro repositorio con el comando:
 - git add dist -f
