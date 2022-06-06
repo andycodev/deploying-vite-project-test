@@ -18,10 +18,10 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 
 4. Agregar la llave base al archivo vite.config.js que esta en la raiz del proyecto
 
-export default defineConfig({
-    base: '/nombre_repositorio/',               <----//línea agregada
-    plugins: [vue()]
-})
+> export default defineConfig({
+>   base: '/nombre_repositorio/',               <----//línea agregada
+>   plugins: [vue()]
+> })
 
 5. Compilamos nuestro proyecto vite para producció con el comando:
 - npm run build
