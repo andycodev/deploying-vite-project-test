@@ -28,7 +28,7 @@ export default defineConfig({
 
 6. Agregamos nuestra carpeta build generada con el comando anterior a nuestro repositorio con el comando:
 git add dist -f
-git commit "adding dist"
+git commit -m "adding dist"
 git subtree push --prefix dist origin gh-pages
 
 7. Listo, vamos a Settings de nuestro repositorio, luego en pages y abrimos la url.
