@@ -1,5 +1,5 @@
 <template>
-  <h1>{{ msg }} {{ruta}}</h1>
+  <h1>{{ msg }} {{name}}</h1>
 
   <p>
     Recommended IDE setup:
@@ -28,7 +28,7 @@ import { ref } from 'vue'
 
 defineProps({
   msg: String,
-  ruta: String
+  name: String
 })
 
 const count = ref(0)

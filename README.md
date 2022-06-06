@@ -11,10 +11,10 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 
 1. Tener un proyecto vite creado
 
-2. Crear un nuevo repositorio en su github pages 
+2. Crear un nuevo repositorio en su github 
 * El nombre del respositorio será el nombre de la ruta
 
-3.Subir proyecto vite al repositorio creado
+3. Subir proyecto vite al repositorio creado
 
 4. Agregar la llave base al archivo vite.config.js que esta en la raiz del proyecto
 
