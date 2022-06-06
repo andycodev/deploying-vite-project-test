@@ -17,11 +17,12 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 3. Subir proyecto vite al repositorio creado
 
 4. Agregar la llave base al archivo vite.config.js que esta en la raiz del proyecto
-
+<code>
 > export default defineConfig({
 >   base: '/nombre_repositorio/',               <----//línea agregada
 >   plugins: [vue()]
 > })
+</code>
 
 5. Compilamos nuestro proyecto vite para producció con el comando:
 - npm run build
