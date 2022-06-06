@@ -24,12 +24,12 @@ export default defineConfig({
 })
 
 5. Compilamos nuestro proyecto vite para producció con el comando:
- npm run build
+- npm run build
 
 6. Agregamos nuestra carpeta build generada con el comando anterior a nuestro repositorio con el comando:
-git add dist -f
-git commit -m "adding dist"
-git subtree push --prefix dist origin gh-pages
+- git add dist -f
+- git commit -m "adding dist"
+- git subtree push --prefix dist origin gh-pages
 
 7. Listo, vamos a Settings de nuestro repositorio, luego en pages y abrimos la url.
 
